@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contamatic MP3 Downloader</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        #header {
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            text-align: center;
+        }
+
+        #logo {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #content {
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        #boton1 {
+            background-color: #da0a0a;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+
+        #boton1:hover {
+            background-color: #3e3e3e;
+            color:  #da0a0a;
+            font-size: 17px;
+        }
+
+        #texto {
+            color: #888;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <img id="logo" src="images/logo1.png" alt="Logo"> CASTLE
+    </div>
+
+    <div id="content">
+        <h1>Convertidor a MP3</h1>
+        <button id="boton1">Descargar Mp3</button>
+        <br><br>
+        <h6 id="texto"></h6>
+    </div>
+
+    <script src="popup-script.js"></script>
+    <script src="content-script.js"></script>
+</body>
+
+</html>
